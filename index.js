@@ -17,7 +17,7 @@ http
     if (radio.header) res.write(radio.header);
     repeater(res);
   })
-  .listen(process.env.PORT || 3000);
+  .listen(process.env.PORT || 8080);
 
 const { extname } = require("path");
 const list = fs
